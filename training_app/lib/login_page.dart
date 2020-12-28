@@ -22,6 +22,14 @@ class _LoginPageState extends State<LoginPage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                Container(
+                    width: 100,
+                    height: 100,
+                    child: Image.network(
+                        'https://enemaneiras.com.br/wp-content/uploads/2018/10/converter-imagem-vetor-libreoffice-draw.png.webp')),
+                Container(
+                  height: 10,
+                ),
                 TextField(
                   onChanged: (text) {
                     email = text;
