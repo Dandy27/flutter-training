@@ -25,8 +25,7 @@ class _LoginPageState extends State<LoginPage> {
                 Container(
                     width: 100,
                     height: 100,
-                    child: Image.network(
-                        'https://enemaneiras.com.br/wp-content/uploads/2018/10/converter-imagem-vetor-libreoffice-draw.png.webp')),
+                    child: Image.asset('assets/images/logo.png')),
                 Container(
                   height: 10,
                 ),
